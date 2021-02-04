@@ -63,34 +63,27 @@ body {
   
   /* Static is the default position value that all html elements start off with */
 
-html {
-      position: static;
-  }
+#power {
+    position: relative;
+    right: 225px;
+}
 
 #space {
     position: relative;
-    right: 225px;
+    right: 115px;
     top: 115px;
-     
-}
-
-#power {
-    position: absolute;
-    left: 435px;
-    bottom: 250px;
-
 }
 
 #soul {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 0;
+    right: 0;
 }
 
 #reality {
     position: absolute;
     bottom: 150px;
-    right: 150px;
+    right: 0;
 }
 
 #mind {
@@ -100,16 +93,35 @@ html {
 
 #time {
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 0;
+    right: 0;
 }
 
 h1 {
     position: sticky;
     top: 0;
-    z-index: 5px;
 }
 
+h1 {
+    z-index: 1;
+}
+
+#reality {
+    z-index: 3;
+}
+
+#soul {
+    z-index: 1;
+}
+
+#time {
+    z-index: 2;
+}
+
+h2 {
+    postion: sticky;
+    top: 65px;
+}
 
 
   
